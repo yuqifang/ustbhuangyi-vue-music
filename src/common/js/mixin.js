@@ -32,7 +32,7 @@ export const playerMixin = {
       return this.mode === playMode.sequence ? 'icon-sequence' : this.mode === playMode.loop ? 'icon-loop' : 'icon-random'
     },
     ...mapGetters([
-      'sequenceList',
+      'sequenceList', 
       'playlist',
       'currentSong',
       'mode',
